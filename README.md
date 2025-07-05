@@ -152,4 +152,4 @@ npm run dev      # Start frontend app
 
 **Jose Marie M. Pacia**  
 JavaScript Full-Stack Developer – Take-Home Test  
-📫 GitHub: [github.com/your-username](https://github.com/your-username)
+📫 GitHub: [github.com/jpacs-pacia](https://github.com/jpacs-pacia/barbooks-exam.git)
