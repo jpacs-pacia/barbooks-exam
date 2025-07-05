@@ -1,0 +1,36 @@
+{
+  "name": "barbooks-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts",
+    "seed": "ts-node src/db/seed.ts"
+  },
+  "keywords": [],
+  "author": "Jose Marie M. Pacia",
+  "license": "ISC",
+  "description": "This is the backend for BarBooks. It is a simple REST API built with Express and SQLite. This is for examination purposes only.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.10",
+    "@types/sqlite3": "^3.1.11",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.0.4",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.1",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
